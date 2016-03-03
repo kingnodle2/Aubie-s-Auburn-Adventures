@@ -1,3 +1,65 @@
 // This file is reserved for the pseudocode that dictates Aubie's behaviors.
 // It will be updated after our programming meeting on Wednesday, March 2, 2016.
 // From this file, the Java and Swift files will be shaped accordingly.
+
+pseudo class AubieGame {
+
+  // Attributes (Data and information)
+  
+  double aubieSize;
+  int healthAmount;
+  int MAX_HEALTH_AMOUNT;
+  int lifeAmount;
+  int MIN_LIFE_AMOUNT;
+  double velocity;
+  double ACCELERATION;
+  double MAX_VELOCITY;
+  double jumpPath;
+  double MASS;
+  double jumpForce;
+  double GRAVITY;
+  int footballDamage; // AMount to kill an enemy successfully varies
+  int MAX_FOOTBALLS_THROWN;
+  double FOOTBALL_VELOCITY;
+  bool hasHelmet;
+  bool isAlive;
+  int stationaryAnimation[]; // animation for where Aubie is stationary
+  int motionAnimation[]; // animation for when Aubie moves
+  int jumpAnimation[]; // animation for when Aubie jumps
+  int endLevelAnimation[]; // animation for when Aubie finishes a level
+  int aubieGetsHelmetAnimation[]; // Aubie acquires the helmet
+  int helmetRunAnimation[]; // animation for when Aubie runs while having the invincibility helmet
+  int helmetDashAnimation[]; // Aubie dashes with the helmet
+  int helmetJumpAnimation[]; // Aubie jumps while possessing the helmet
+  int aubieDiesAnimation[]; // Aubie dies :(
+  int aerialGetsHitAnimation[]; // Aubie gets hit in the middle of a jump
+  int groundGetsHitAnumation[]; // Aubie gets hit on the ground
+  int aubieTempInvincibleAfterHitAnimation[]; // Aubie has a temporary invincibility after getting hit
+  int leaveMeAloneAnimation[]; // Leave Aubie alone and watch what he does...
+  int throwFootball[];  // Aubie throws a football
+  int aubieCrouchesDownAnimation[]; // Aubie crouches
+  int aubieRisesUpAnimation[]; // Uncrouches
+  int crouchStationaryAnimation[]; // Stays crouched
+  
+
+  // Behaviors (Methods/Functions)
+
+  move() {
+  
+  }
+  
+  throw(
+  
+  jump
+  
+  crouch
+  
+  getsHit
+  
+  // animations...
+  
+  
+
+
+  // Other
+}
