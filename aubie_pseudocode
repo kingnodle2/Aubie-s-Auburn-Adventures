@@ -18,6 +18,7 @@ pseudo class AubieGame {
   double MASS;
   double jumpForce;
   double GRAVITY;
+  double buttonHeldTime;
   int footballDamage; // AMount to kill an enemy successfully varies
   int MAX_FOOTBALLS_THROWN;
   double FOOTBALL_VELOCITY;
